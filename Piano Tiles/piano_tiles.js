@@ -45,6 +45,7 @@ function draw(){
 
 function getTime(){
     return Math.floor(time / 60) + ":" + Math.floor(map(time % 60, 0, 59, 0, 999)) + "\"";
+  
 }
 
 function handleState(){

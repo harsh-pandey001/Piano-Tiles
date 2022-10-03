@@ -1,16 +1,22 @@
 * {
     margin: 0;
     padding: 0;
- 
+
 }
-body{
-    background: url(../Img/unnamed\ \(1\).png) no-repeat center center fixed; 
+
+body {
+    background: url(../Img/unnamed\ \(1\).png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.bat {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+}
 
 .container {
 
@@ -20,7 +26,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-  
+
 }
 
 button {
@@ -34,24 +40,33 @@ button {
     cursor: pointer;
     transition: width 0.5s;
 }
+
 .bnx {
     width: 100%;
-   
+
 }
 
 @media only screen and (max-width:700px) {
-    
-    .container{
+
+    .container {
         height: 50%;
         padding: 0%;
         margin: 0%;
- 
+
     }
+
     button {
         width: 90px;
         font-size: 10px;
         display: flex;
         flex-direction: column;
         padding: 0%;
+        margin: 2px 0;
+    }
+    .bat {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        align-content: space-around;
     }
 }
