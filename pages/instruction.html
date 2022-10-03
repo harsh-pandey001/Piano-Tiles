@@ -10,41 +10,44 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./ins.css" />
     <title>instruction</title>
   </head>
   <body>
-    <div
-      style="
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      "
-    >
+    <div class="container">
       <div
-        style="
-          border: 2px solid black;
-          text-align: center;
-          width: 40%;
-          margin: auto;
-          display: flex;
-          flex-wrap: wrap;
-          align-content: space-between;
-          justify-content: center;
-        "
+        class="bnx card border-dark  text-bg-primary mb-3"
+        style="width: 50%;"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore
-        reprehenderit aliquid cum praesentium impedit iste architecto eveniet.
-        Sit, optio? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id
-        est exercitationem labore ducimus doloribus at rerum ea odio eaque
-        perspiciatis beatae consequuntur iste cupiditate rem aliquam tempore,
-        quod asperiores doloremque sed tempora quia hic voluptate quas. At
-        accusamus quod, nesciunt praesentium consequuntur recusandae dolorum
-        esse? Doloremque provident aliquid pariatur reiciendis!
-        <div style="">
-          <div class="left"><a href="#">Go Back</a></div>
-          <div class="right"><a href="/pages/gamepage.html">Lets Go --></a></div>
+        <div
+          class="card-header"
+          style="text-align: center; font-weight: 500; font-size: 24px"
+        >
+          Instructions
+        </div>
+        <div class="card-body">
+          <p class="card-text cnt">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            labore reprehenderit aliquid cum praesentium impedit iste architecto
+            eveniet. Sit, optio? Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Id est exercitationem labore ducimus doloribus at
+            rerum ea odio eaque perspiciatis beatae consequuntur iste cupiditate
+            rem aliquam tempore, quod asperiores doloremque sed tempora quia hic
+            voluptate quas. At accusamus quod, nesciunt praesentium consequuntur
+            recusandae dolorum esse? Doloremque provident aliquid pariatur
+            reiciendis!
+          </p>
+          <div
+            class="card-footer bg-transparent"
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-content: space-around;
+            "
+          >
+            <a href="../index.html"><button type="button" class="btn btn-danger" >Go Back</button></a>
+            <a href="../index.html"><button type="button" class="btn btn-danger">Play</button></a>
+          </div>
         </div>
       </div>
     </div>

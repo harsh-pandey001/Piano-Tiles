@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    background: url(../Img/unnamed\ \(1\).png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.container {
+
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+}
+
+button {
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+.bnx {
+    width: 100%;
+   
+}
+
+@media only screen and (max-width:700px) {
+    
+    .container{
+        height: 50%;
+        padding: 0%;
+        margin: 0%;
+ 
+    }
+    button {
+        width: 90px;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+}
